@@ -1,0 +1,27 @@
+{
+  "name": "node_1",
+  "version": "1.0.0",
+  "description": "practis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myroslav111/node_1.git"
+  },
+  "author": "myroslav111",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myroslav111/node_1/issues"
+  },
+  "homepage": "https://github.com/myroslav111/node_1#readme",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
